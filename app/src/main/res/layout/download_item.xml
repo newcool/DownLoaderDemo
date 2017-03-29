@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/pb1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:max="100"
+        android:progress="0"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        >
+        <Button
+            android:id="@+id/bt1_1"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:text="下载"
+            android:gravity="center"
+            android:background="@drawable/selector_btn"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/bt1_2"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:text="暂停"
+            android:gravity="center"
+            android:background="@drawable/selector_btn"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+            android:id="@+id/bt1_3"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:text="取消"
+            android:gravity="center"
+            android:background="@drawable/selector_btn"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
