@@ -5,6 +5,7 @@ import android.util.Log;
 import java.io.IOException;
 
 /**
+ * 文件操作类
  * Created by sean on 2017/3/6
  */
 public class FileUtil {

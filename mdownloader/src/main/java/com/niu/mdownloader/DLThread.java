@@ -16,7 +16,7 @@ import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
 
 /**
- * 下载实现类
+ * 下载实现类，下载任务执行线程
  * Created by sean on 2017/2/13
  */
 public class DLThread implements Runnable{

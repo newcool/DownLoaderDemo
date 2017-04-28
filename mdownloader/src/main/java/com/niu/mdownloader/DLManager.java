@@ -22,6 +22,7 @@ import static android.provider.ContactsContract.CommonDataKinds.Website.URL;
 
 /**
  * Created by sean on 2017/2/13
+ * 下载管理类，开启下载任务
  */
 public class DLManager {
     private String TAG = "DLManager";

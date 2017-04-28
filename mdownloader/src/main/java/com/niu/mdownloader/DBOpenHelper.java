@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by sean on 2017/2/14
+ * 数据库管理类
  */
 public class DBOpenHelper extends SQLiteOpenHelper{
     private String TAG = "DBOpenHelper";

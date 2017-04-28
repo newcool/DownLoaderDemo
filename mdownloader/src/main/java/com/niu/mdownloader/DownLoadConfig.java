@@ -3,6 +3,7 @@ package com.niu.mdownloader;
 import android.content.Context;
 
 /**
+ * 下载配置类
  * Created by sean on 2017/3/28
  */
 public class DownLoadConfig {

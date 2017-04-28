@@ -1,6 +1,7 @@
 package com.niu.mdownloader;
 
 /**
+ *
  * Created by sean on 2017/2/14
  */
 public class Param {

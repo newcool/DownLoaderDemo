@@ -3,6 +3,7 @@ package com.niu.mdownloader;
 import android.os.Message;
 
 /**
+ * 下载过程中的提示信息
  * Created by sean on 2017/3/1
  */
 public class DownLoadMessage {

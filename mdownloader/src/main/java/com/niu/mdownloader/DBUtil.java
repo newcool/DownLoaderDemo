@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 /**
  * Created by sean on 2017/2/14
+ * 数据库操作类
  */
 public class DBUtil {
     private String TAG = "DBUtil";

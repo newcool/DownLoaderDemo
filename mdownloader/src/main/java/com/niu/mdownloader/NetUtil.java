@@ -5,6 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
+ * 网络操作类
  * Created by sean on 2017/2/14
  */
 public class NetUtil {
